@@ -18,19 +18,10 @@ html {
   background: currentColor;
 }
 
-/* Left here in case working with pixelPerfect. */
-
-/* html {
-  margin: 0 auto auto auto;
-  width: 1600px;
-  height: 900px;
-  background: currentColor;
-} */
-
 body {
   position: relative;
   height: inherit;
   width: inherit;
   min-width: 800px;
-  z-index: -1;
+  z-index: 0;
 }
