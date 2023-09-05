@@ -12,19 +12,19 @@ h1 {
   background: transparent;
 }
 
-/* html {
+html {
   height: 100%;
   width: 100%;
   background: currentColor;
-} */
+} 
 
-/*TODO. Return base html on end of work. Exists only for pixelPerfect*/
-html {
+/*Left here in case working with pixelPerfect.
+  html {
   margin: 0 auto auto auto;
   width: 1600px;
   height: 900px;
   background: currentColor;
-}
+}  */
 
 body {
   position: relative;
