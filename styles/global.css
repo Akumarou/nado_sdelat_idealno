@@ -20,12 +20,12 @@ html {
 
 /* Left here in case working with pixelPerfect. */
 
-html {
+/* html {
   margin: 0 auto auto auto;
   width: 1600px;
   height: 900px;
   background: currentColor;
-}
+} */
 
 body {
   position: relative;
