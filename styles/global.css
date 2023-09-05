@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+h1 {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  background: currentColor;
+}
+
+body {
+  position: relative;
+  height: inherit;
+  width: inherit;
+  min-width: 800px;
+  z-index: 0;
+}
