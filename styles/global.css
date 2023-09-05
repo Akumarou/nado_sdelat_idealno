@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+h1 {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+}
+
+/* html {
+  height: 100%;
+  width: 100%;
+  background: currentColor;
+} */
+
+/*TODO. Return base html on end of work. Exists only for pixelPerfect*/
+html {
+  margin: 0 auto auto auto;
+  width: 1600px;
+  height: 900px;
+  background: currentColor;
+}
+
+body {
+  position: relative;
+  height: inherit;
+  width: inherit;
+  min-width: 800px;
+  z-index: -1;
+}
